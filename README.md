@@ -138,6 +138,15 @@ xgboost==1.7.1
     - numpy [required: >=1.18.5,<1.26.0, installed: 1.23.4]
 ```
 
+Note: If the Folium maps are not displayed you need to trust the notebook:
+
+1. Open a terminal
+2. Navigate to the project folder
+3. Type:
+   1. `jupyter trust 01_eda.ipynb`
+
+
+
 # Export Training Logic to Script
 
 XGBoost was chose as the best model. The Python in the XGBoost notebook was export and cleaned up.
